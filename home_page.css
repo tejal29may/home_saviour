@@ -1,0 +1,103 @@
+body
+{
+    background-image: url('images/bg.jpeg');
+        }
+nav{
+    width:100%;
+    height:70px;
+    border-bottom:1px solid grey;
+    box-shadow:2px 0px 5px grey;
+    display :flex;
+    justify-content:space-around;
+    align-items:center;
+    
+
+}
+.logo
+{
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    color:darkblue;
+}
+.logo:hover{
+    transform:translateX(-20px);
+}
+.menu a
+{
+text-decoration: none;
+font-size: 25px;
+color:black;
+padding: 10px 20px;
+margin: 5px;
+font-family: 'Philosopher', sans-serif;
+
+}
+.menu a:hover
+{
+    
+    font-size:30px;
+    font-weight:bold;
+    color:#000066;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    transform:translateY(-20px);
+    transition:0.4s ease;
+}       
+.img-text{
+   width:100%;
+   height:300px;
+   display:block;
+   text-align:center;
+   padding:40% 5%;
+   background:#666699;
+  
+   color:#fff;
+   border-radius:15px;
+}
+.img-text h2{
+    font-size:25px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.img-text p
+{
+    font-size:14px;
+}
+.single-box
+{
+    position:relative;
+    margin-bottom:30px;
+}
+.img-area{
+    position:absolute;
+    width:100px;
+    height:100px;
+    border:5px solid #fff;
+    overflow:hidden;
+    top:15px;
+    left:125px;
+    border-radius:50%;
+}
+.img-area img{
+    width:100%;
+}
+
+
+.col-md-3 a
+{
+  background-color:#99d6ff;
+  color:#000066;
+  display:block;
+
+  font-family: poppins;
+  text-align:center;
+}
+
+footer{
+    background-color:black;
+    color: white;
+}
